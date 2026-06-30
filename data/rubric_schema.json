@@ -1,0 +1,15 @@
+{
+  "score_range": [
+    1,
+    5
+  ],
+  "dimensions": [
+    "general",
+    "factuality",
+    "reasoning",
+    "instruction",
+    "safety",
+    "tone"
+  ],
+  "follow_up_rule": "average < 4 or any dimension <= 2"
+}
